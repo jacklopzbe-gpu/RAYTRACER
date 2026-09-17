@@ -1,0 +1,25 @@
+# TouchDesigner backups and caches
+*.[0-9].toe
+*.[0-9][0-9].toe
+Backup/
+*.toe.dir/
+*.toe.toc
+
+# Python
+__pycache__/
+*.pyc
+
+# Test harness output and local package install
+tools/td_log.txt
+tools/td_started.txt
+tools/pylib/
+
+# Render output (offline sequences) and heavy verification renders
+renders/
+tests/renders/
+*.exr
+
+# OS
+Thumbs.db
+desktop.ini
+_harness.toe
